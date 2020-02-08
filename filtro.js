@@ -47,7 +47,7 @@ const tarjetas = document.querySelector(".containerZapatos");
   tarjetasZapatos = '';
 
 
-  const zapatosMostrados = arrayPorColoryTipo.forEach(producto => {
+  const zapatosMostrados = productos.forEach(producto => {
 
     tarjetasZapatos += `
      <article class="tarjeta">
