@@ -67,6 +67,8 @@ forms.onsubmit = e => {
        </div>
      </article>`
   })
+  
+  tarjetas.innerHTML = tarjetasZapatos;
 }
 //   // ----------- filtra por color de calzado
 
