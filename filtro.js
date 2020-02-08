@@ -58,7 +58,7 @@ const tarjetas = document.querySelector(".containerZapatos");
         <h4>${producto.nombre}</h4>
        </div>
      </article>`
-  })
+  });
   
   tarjetas.innerHTML = tarjetasZapatos;
 
